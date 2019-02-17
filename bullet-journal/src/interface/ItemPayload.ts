@@ -3,7 +3,8 @@ export interface ItemPayload {
     type: string
     status: ItemStatus,
     createdDate: string, 
-    lastUpdatedDate: string
+    lastUpdatedDate: string,
+    text: string
 }
 
 export enum ItemStatus {
